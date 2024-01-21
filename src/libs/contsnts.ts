@@ -1,0 +1,1 @@
+export const MAIN_URL : string = "http://localhost:9000/jobs"

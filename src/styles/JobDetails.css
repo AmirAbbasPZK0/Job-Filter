@@ -1,0 +1,34 @@
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.details img{
+    width: 300px;
+    height: 300px;
+}
+
+.langs{
+    margin-right: 10px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.btn_area{
+    padding-top: 1rem;
+}
+
+@media screen and (max-width : 600px) {
+    .details {
+        display: flex;
+        flex-direction: column;
+    }
+    .details img{
+        width: 200px;
+        height: 200px;
+    }
+}
